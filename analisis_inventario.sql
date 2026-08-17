@@ -46,3 +46,4 @@ with inventario_peliculas as (
 select categoria, total_arriendos, peliculas_en_arriendo, total_ingresos
    from inventario_peliculas
    order by total_ingresos desc
+.
